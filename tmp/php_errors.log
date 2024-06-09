@@ -1,0 +1,21 @@
+[29-May-2024 09:27:32 America/El_Salvador] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1049] Unknown database 'ventas' in C:\laragon\www\VENTAS\app\models\mainModel.php:20
+Stack trace:
+#0 C:\laragon\www\VENTAS\app\models\mainModel.php(20): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 C:\laragon\www\VENTAS\app\models\mainModel.php(28): app\models\mainModel->conectar()
+#2 C:\laragon\www\VENTAS\app\controllers\loginController.php(45): app\models\mainModel->ejecutarConsulta('SELECT * FROM u...')
+#3 C:\laragon\www\VENTAS\app\views\content\login-view.php(11): app\controllers\loginController->iniciarSesionControlador()
+#4 C:\laragon\www\VENTAS\index.php(33): require_once('C:\\laragon\\www\\...')
+#5 {main}
+  thrown in C:\laragon\www\VENTAS\app\models\mainModel.php on line 20
+[29-May-2024 09:44:08 America/El_Salvador] PHP Warning:  Undefined array key "usuario_caja" in C:\laragon\www\VENTAS\app\controllers\userController.php on line 20
+[29-May-2024 09:44:08 America/El_Salvador] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\VENTAS\app\models\mainModel.php on line 39
+[29-May-2024 09:52:04 America/El_Salvador] PHP Warning:  Undefined array key "producto_foto" in C:\laragon\www\VENTAS\app\controllers\productController.php on line 223
+[29-May-2024 09:52:04 America/El_Salvador] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\VENTAS\app\controllers\productController.php on line 223
+[29-May-2024 14:15:36 America/El_Salvador] PHP Warning:  Undefined array key "usuario_caja" in C:\laragon\www\VENTAS\app\controllers\userController.php on line 20
+[29-May-2024 14:15:36 America/El_Salvador] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\VENTAS\app\models\mainModel.php on line 39
+[29-May-2024 14:15:41 America/El_Salvador] PHP Warning:  Undefined array key "usuario_caja" in C:\laragon\www\VENTAS\app\controllers\userController.php on line 20
+[29-May-2024 14:15:41 America/El_Salvador] PHP Deprecated:  trim(): Passing null to parameter #1 ($string) of type string is deprecated in C:\laragon\www\VENTAS\app\models\mainModel.php on line 39
+[29-May-2024 14:42:30 America/El_Salvador] PHP Warning:  Undefined array key "usuario_foto" in C:\laragon\www\VENTAS\app\controllers\userController.php on line 150
+[29-May-2024 14:42:30 America/El_Salvador] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\VENTAS\app\controllers\userController.php on line 150
+[30-May-2024 00:56:29 America/El_Salvador] PHP Warning:  Undefined array key "producto_foto" in C:\laragon\www\VENTAS\app\controllers\productController.php on line 223
+[30-May-2024 00:56:29 America/El_Salvador] PHP Warning:  Trying to access array offset on value of type null in C:\laragon\www\VENTAS\app\controllers\productController.php on line 223
