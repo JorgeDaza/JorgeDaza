@@ -652,3 +652,13 @@
 ::1 - - [07/Jun/2024:18:49:48 -0500] "GET /phpmyadmin/js/dist/console.js?v=5.2.1 HTTP/1.1" 304 -
 ::1 - - [07/Jun/2024:18:49:48 -0500] "GET /phpmyadmin/themes/pmahomme/img/logo_right.png HTTP/1.1" 304 -
 ::1 - - [07/Jun/2024:18:49:48 -0500] "GET /phpmyadmin/js/messages.php?l=es&v=5.2.1 HTTP/1.1" 200 8971
+::1 - - [09/Jun/2024:13:39:23 -0500] "GET / HTTP/1.1" 200 201
+::1 - - [09/Jun/2024:13:39:24 -0500] "GET /favicon.ico HTTP/1.1" 404 196
+::1 - - [09/Jun/2024:13:39:27 -0500] "GET /VENTAS/ HTTP/1.1" 200 1761
+::1 - - [09/Jun/2024:13:39:28 -0500] "GET /VENTAS/app/views/css/all.css HTTP/1.1" 304 -
+::1 - - [09/Jun/2024:13:39:28 -0500] "GET /VENTAS/app/views/css/estilos.css HTTP/1.1" 304 -
+::1 - - [09/Jun/2024:13:39:34 -0500] "POST /VENTAS/ HTTP/1.1" 200 1971
+::1 - - [09/Jun/2024:13:39:55 -0500] "POST /VENTAS/ HTTP/1.1" 302 1761
+::1 - - [09/Jun/2024:13:39:55 -0500] "GET /VENTAS/app/views/fotos/default.png.png HTTP/1.1" 304 -
+::1 - - [09/Jun/2024:13:39:55 -0500] "GET /VENTAS/dashboard/ HTTP/1.1" 200 15141
+::1 - - [09/Jun/2024:13:41:16 -0500] "-" 408 -
